@@ -161,7 +161,7 @@ const handler = async (m, { conn, usedPrefix: _p, args }) => {
 
   try {
     const menuMessage = await conn.sendMessage(chatId, {
-      image: { url: 'https://telegra.ph/file/16e6d4a0fa004cd7f3e0f.jpg' }, // 📷 Imagen por LINK
+      image: { url: 'https://files.catbox.moe/of7lie.jpg' }, // 📷 Imagen por LINK
       caption: text,
       contextInfo: {
         forwardingScore: 999,
